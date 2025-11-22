@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(226, 66, 66);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.divbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.divbutton>a {
+  width: 50%;
+  height: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-bottom: -15px;
+}
+
+.divtipos {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* contêiner do tipo (link) */
+.tipos {
+  display: inline-block;
+  width: 100px !important;
+  height: 100px !important;
+  max-width: 100px;
+  text-indent: -9999px;
+  /* esconder o "." dentro do link */
+  overflow: hidden;
+}
+
+.tipo-img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  object-fit: contain;
+  background-color: white;
+}
+
+.bdtipos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titletipo {
+  margin-bottom: 5px;
+}
+
+.aimg {
+  all: unset !important;
+  cursor: pointer !important;
+}
+
+
+.pokemon-card {
+  position: relative;
+  border-radius: 12px;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.pokemon-card img {
+  height: 70px;
+}
+
+.pokemon-card .info {
+  position: relative;
+  z-index: 2;
+}
+
+#titulo {
+  text-align: center;
+  margin: 15px;
+}
