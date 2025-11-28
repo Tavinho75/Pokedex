@@ -6,7 +6,7 @@ const tipoTraduzido = {
   grass: "planta",
   ice: "gelo",
   fighting: "lutador",
-  poison: "veneno",
+  poison: "veneno", 
   ground: "terra",
   flying: "voador",
   psychic: "psíquico",
