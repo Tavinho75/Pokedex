@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="Pokebola.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.98242188"
+     inkscape:cx="171.51491"
+     inkscape:cy="220.37376"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs1" /><g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"><path
+       id="path4"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0994399;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 257.48368,1.0178926 A 255.51465,255.51465 0 0 0 4.7375856,219.0218 c 0.0532,-0.23052 0.10692,-0.45804 0.16211,-0.6836 5.1741944,-0.0848 62.7114854,-0.10707 137.1289044,-0.0977 a 121.63924,121.63924 0 0 1 115.45508,-83.34761 121.63924,121.63924 0 0 1 115.48242,83.43164 c 76.43226,0.0391 134.26367,0.0762 134.26367,0.0762 h 2.69922 A 255.51465,255.51465 0 0 0 257.48368,1.0178926 Z M 510.18485,219.65266 c 0.0723,0.47096 0.38699,3.1284 0.67578,5.39062 a 255.51465,255.51465 0 0 0 -0.67578,-5.39062 z M 2.2043756,245.57453 a 255.51465,255.51465 0 0 0 -0.23633,10.95703 255.51465,255.51465 0 0 0 1.64649,28.94922 c -0.72884,-9.46926 -1.67145,-25.06936 -1.41016,-39.90625 z m 510.7890644,9.49219 c 0.0196,1.00805 -0.0671,2.13648 -0.0586,3.16406 a 255.51465,255.51465 0 0 0 0.0625,-1.69922 255.51465,255.51465 0 0 0 -0.004,-1.46484 z M 4.7942256,294.42609 A 255.51465,255.51465 0 0 0 257.48368,512.04719 255.51465,255.51465 0 0 0 510.17313,294.42805 c -7.70291,0.0825 -64.34999,0.1104 -137.14062,0.11132 A 121.63924,121.63924 0 0 1 257.48368,378.17219 121.63924,121.63924 0 0 1 141.91727,294.48664 c -74.382563,-0.0282 -131.793357,-0.0578 -137.1230444,-0.0605 z" /><circle
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path6"
+       cx="257.4827"
+       cy="256.53253"
+       r="78.453705" /></g></svg>
