@@ -62,7 +62,7 @@ a {
     background-size: 100%;
 }
 
-.mapas::before {
+.btn4::before {
     opacity: 0.6 !important;
     content: "";
     position: absolute;
@@ -74,19 +74,19 @@ a {
     background-size: 100%;
 }
 
-.pokedex {
+.btn1 {
     background-color: var(--light-blue);
 }
 
-.itens {
+.btn2 {
     background-color: var(--light-green);
 }
 
-.badges {
+.btn3 {
     background-color: var(--light-red);
 }
 
-.mapas {
+.btn4 {
     background-color: var(--light-yellow);
 }
 
@@ -120,5 +120,117 @@ h1 {
     margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+#pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pokemon-card {
+    width: 200px;
+    transition: .4s;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.pokemon-card a {
+    color: black;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-image {
+    width: 60%;
+}
+
+.pokemon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-direction: row-reverse;
+    /* coloca imagem à direita e texto à esquerda */
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.pokemon img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    flex: 0 0 72px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.pokemon .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex: 1 1 auto;
+    width: auto;
+}
+
+.pokemon .info h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.1;
+}
+
+/* Estiliza apenas o campo de tipo (parágrafo), sem alterar o nome */
+.pokemon .info p {
+    margin: 6px 0 0 0;
+    font-size: 0.9rem;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #111;
+    font-weight: 600;
+}
+
+.card-content {
+    align-items: flex-start;
+}
+
+@media (max-width: 600px) {
+    .pokemon img {
+        width: 56px;
+        height: 56px;
+        flex: 0 0 56px;
+    }
+
+    .pokemon-card {
+        width: 45vw;
+        min-width: 140px;
+    }
+
+    .pokemon .info h3 {
+        font-size: 0.95rem;
+    }
+
+    .pokemon .info p {
+        font-size: 0.85rem;
+        padding: 4px 8px;
+    }
 }
